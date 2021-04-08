@@ -1,0 +1,29 @@
+.column {
+    display: flex;
+    float: left;
+    width: 33.33%;
+    justify-content: center;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  } 
+
+.image1 img{
+    margin-top: 75px;
+    height: 225px;
+    overflow: hidden;
+    transition: transform .2s;
+}
+
+.image1:hover {
+    transform: scale(1.2);
+}
+
+.image1{
+    padding: 0;
+    border: none;
+    background: none;
+}
